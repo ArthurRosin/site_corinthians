@@ -55,8 +55,12 @@ footer{
         margin-top: 25px ;
     }
 
-    p{
-        
+}
+
+@media (max-width: 450px){
+
+    img{
+        min-width: 350px;
     }
 
 }
