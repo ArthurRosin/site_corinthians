@@ -56,11 +56,3 @@ footer{
     }
 
 }
-
-@media (max-width: 500px){
-
-    img{
-        width: 285px;
-    }
-
-}
