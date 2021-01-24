@@ -1,0 +1,62 @@
+main{
+    padding: 20px;
+}
+
+h1{
+    margin: 5px;
+}
+
+h2{
+    margin: 5px;
+}
+
+p{
+    text-align: justify;;
+    display: inline;
+    position: relative;
+    top: 5px;
+}
+
+main a{
+    border-radius: 2px;
+    padding: 0px 2px;
+    text-decoration: none;
+    color: var(--cor3);
+    transition-duration: 1s;
+}
+
+main a:hover{
+    background-color: var(--cor2)
+}
+
+.imagens{
+    padding: 10px 20px 0px 5px ;
+    display: block;
+    float: left;
+}
+
+.imagens-hidden{
+    display: none;
+}
+
+footer{
+    float: left;
+}
+
+@media (max-width: 900px){
+
+    .imagens{
+        display: none;
+    }
+    
+    .imagens-hidden{
+        display: block;
+        text-align: center;
+        margin-top: 25px ;
+    }
+
+    p{
+        
+    }
+
+}
